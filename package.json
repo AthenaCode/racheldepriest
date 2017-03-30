@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/AthenaCode/racheldepriest.git"
   },
-  "author": "",
+  "author": "Rachel DePriest",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AthenaCode/racheldepriest/issues"
@@ -21,7 +21,9 @@
     "express": "^4.15.2",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-redux": "^5.0.3",
     "react-router": "^4.0.0",
+    "redux": "^3.6.0",
     "redux-react-router": "^1.0.0-beta3"
   }
 }
