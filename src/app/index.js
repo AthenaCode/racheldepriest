@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
 import { Router, Route, Switch } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 
@@ -10,7 +11,4 @@ import NavBar from './components/navBar/NavBar';
 import Home from './components/home/Home';
 
 
-ReactDOM.render(
-	
-
-	)
+ReactDOM.render(<Home />, document.getElementById('react-root'));
